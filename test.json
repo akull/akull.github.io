@@ -2252,15 +2252,15 @@
         ]
       }
     ],
-    "devices" : "<null>",
-    "users" : "<null>",
-    "messages" : "<null>",
-    "relationships" : "<null>",
-    "conversations" : "<null>",
-    "contacts" : "<null>",
-    "questions" : "<null>",
-    "media" : "<null>",
-    "reports" : "<null>",
+    "devices" : null,
+    "users" : null,
+    "messages" : null,
+    "relationships" : null,
+    "conversations" : null,
+    "contacts" : null,
+    "questions" : null,
+    "media" : null,
+    "reports" : null,
     "packages" : [
       {
         "id" : 1,
@@ -3058,8 +3058,8 @@
   "pagination" : {
     "limit" : 100,
     "links" : {
-      "previous" : "<null>",
-      "next" : "<null>"
+      "previous" : null,
+      "next" : null
     },
     "total" : 0
   },

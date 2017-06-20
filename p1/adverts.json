@@ -1,45 +1,44 @@
-
 {
   "data": {
     "adverts": [
       {
-        "id": 1337,
+        "id": 50005,
         "type": "advert",
-        "start_date": "2017-06-16T00:00:00+0800",
+        "start_date": "2017-06-19T00:00:00+0800",
         "end_date": "2017-06-25T00:00:00+0800",
+        "max_view_count": 10,
+        "min_view_delay": 20,
+        "display_time": 10,
         "link": "https:\/\/uk.pinterest.com\/adamdurrrr\/nike-80s-ads\/",
         "pictures": [
           {
-            "width_960": {
-              "url": "https:\/\/thekindofblue.files.wordpress.com\/2013\/09\/original-1992-nike-air-huarache-advert-the-daily-street.jpg",
-              "width": 960,
-              "height": 1707
-            }
+            "url":"https://thekindofblue.files.wordpress.com/2013/09/original-1992-nike-air-huarache-advert-the-daily-street.jpg",
+            "width": 960,
+            "height": 1707
           }
-        ]
+          ]
       },
       {
         "id": 4711,
         "type": "advert",
-        "start_date": "2017-06-20T00:00:00+0800",
+        "start_date": "2017-06-18T00:00:00+0800",
         "end_date": "2017-06-25T00:00:00+0800",
-        "link": "http:\/\/www.smirnoff.com\/en-us\/",
+        "max_view_count": 5,
+        "min_view_delay": 86400,
+        "display_time": 2,
+        "link": "http://www.smirnoff.com/en-us/",
         "pictures": [
           {
-            "width_960": {
-              "url": "https:\/\/pbs.twimg.com\/media\/DCFQjvtU0AASDq_.jpg",
-              "width": 960,
-              "height": 1707
-            }
+            "url":"https://pbs.twimg.com/media/DCFQjvtU0AASDq_.jpg",
+            "width": 960,
+            "height": 1707
           },
           {
-            "width_960": {
-              "url": "https:\/\/s-media-cache-ak0.pinimg.com\/736x\/95\/1c\/53\/951c53f955d01aa6a96bee5465193462.jpg",
-              "width": 960,
-              "height": 1707
-            }
+            "url":"https://s-media-cache-ak0.pinimg.com/736x/95/1c/53/951c53f955d01aa6a96bee5465193462.jpg",
+            "width": 960,
+            "height": 1707
           }
-        ]
+          ]
       }
     ]
   },

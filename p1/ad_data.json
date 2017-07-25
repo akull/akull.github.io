@@ -5,10 +5,10 @@
         "id": "bfad783a-cf65-4fa4-824b-071706581d84",
         "type": "advert",
         "start_date": "2017-07-01",
-        "end_date": "2017-07-20",
-        "max_view_count": "40",
-        "min_view_delay": "600",
-        "display_time": 2,
+        "end_date": "2017-07-31",
+        "max_view_count": "400",
+        "min_view_delay": "10",
+        "display_time": 10,
         "link": "http://www.smirnoff.com/en-us/",
         "pictures": [
           {
@@ -28,7 +28,7 @@
         "id": "597407db-0b92-4db0-9d37-5e64a1ab2943",
         "type": "advert",
         "start_date": "2017-07-01",
-        "end_date": "2017-07-25",
+        "end_date": "2017-07-31",
         "max_view_count": "200",
         "min_view_delay": "3600",
         "display_time": 2,

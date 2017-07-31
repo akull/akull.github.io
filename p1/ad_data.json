@@ -4,12 +4,13 @@
       {
         "id": "bfad783a-cf65-4fa4-824b-071706581d84",
         "type": "advert",
+        "advert_type": "splash",
         "start_date": "2017-07-01",
-        "end_date": "2017-07-31",
-        "max_view_count": "400",
-        "min_view_delay": "10",
+        "end_date": "2017-09-30",
+        "max_view_count": "1000",
+        "min_view_delay": "600",
         "display_time": 10,
-        "link": "http://www.smirnoff.com/en-us/",
+        "link": "https://itunes.apple.com/us/app/tantan/id861891048?mt=8",
         "pictures": [
           {
             "url": "https://pbs.twimg.com/media/DCFQjvtU0AASDq_.jpg",
@@ -27,11 +28,12 @@
       {
         "id": "597407db-0b92-4db0-9d37-5e64a1ab2943",
         "type": "advert",
+        "advert_type": "splash",
         "start_date": "2017-07-01",
-        "end_date": "2017-07-31",
-        "max_view_count": "200",
+        "end_date": "2017-09-30",
+        "max_view_count": "1000",
         "min_view_delay": "3600",
-        "display_time": 2,
+        "display_time": "5",
         "link": "https://uk.pinterest.com/adamdurrrr/nike-80s-ads/",
         "pictures": [
           {

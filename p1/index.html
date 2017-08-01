@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Adverts</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Advert generator</h1>
+        <center>
+            <button class="load" onclick="loadProduction()">Load production</button>
+            <button class="load" onclick="loadFile()">Load file</button>
+            <button class="add" onclick="addNewAdvert()">Add new</button>
+            <button class="save" onclick="saveAdverts()">Save adverts</button>
+        </center>
+        <p>Add, edit and remove adverts below</p>
+
+        <div id="editModal" class="modal">
+            <div class="modal-content">
+                <h1>Edit advert</h1>
+                
+                <table style="width:80%">
+                    <tr>
+                        <td style="width:30%">
+                            <div class="imageContainer" id="editImage"></div>
+                        </td>
+                        <td style="width:20%;padding-right:30px">
+                            <p class="label">ID</p>
+                            <p class="label">Name</p>
+                            <p class="label">Start</p>
+                            <p class="label">End</p>
+                            <p class="label">Count</p>
+                            <p class="label">Delay (sec)</p>
+                            <p class="label">Display</p>
+                            <p class="label">Link</p>
+                        </td>
+                        <td style="width:50%">
+                            <p class="data" id="editID">?</p>
+                            <p class="data"><input type="text" id="editName"></p>
+                            <p class="data"><input type="date" id="editStart"></p>
+                            <p class="data"><input type="date" id="editEnd"></p>
+                            <p class="data"><input type="number" id="editCount" min="0"></p>
+                            <p class="data"><input type="number" id="editDelay" min="3600"></p>
+                            <p class="data"><input type="number" id="editDisplay" min="2"></p>
+                            <p class="data"><input type="text" id="editLink" style="width:80%"></p>
+                        </td>
+                    </tr>
+                </table>
+                
+                <br>
+                <br>
+                <br>
+
+                <center>
+                    <button class="delete" onclick="cancelEdit()">Cancel</button>
+                    <button class="save" id="editSaveButton">Save</button>
+                </center>
+            </div>
+        </div>
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
+

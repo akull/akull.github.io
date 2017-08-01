@@ -1,0 +1,160 @@
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #39393A;
+}
+
+
+html {
+    background-color: #EFEFF4;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EFEFF4;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 28px;
+    color: #39393A;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    -moz-border-radius:26px;
+    -webkit-border-radius:26px;
+    border-radius:26px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:20px;
+    padding:13px 30px;
+    text-decoration:none;
+    text-shadow:1px 1px 2px #2f6627;
+    outline: none;
+    margin:0px 20px;
+}
+
+button:active {
+    position:relative;
+    top:1px;
+}
+
+.load {
+    background-color:#03c672;
+    border:1px solid #18ab29;
+}
+
+.load:hover {
+    background-color:#0cad67;
+}
+
+.save {
+    background-color:#9e04c4;
+    border:1px solid #4c025e;
+}
+
+.save:hover {
+    background-color:#6f038a;
+}
+
+.edit {
+    background-color:#FF9600;
+    border:1px solid #754401;
+}
+
+.edit:hover {
+    background-color:#9F5D01;
+}
+
+.add {
+    background-color:#FF9600;
+    border:1px solid #754401;
+}
+
+.add:hover {
+    background-color:#9F5D01;
+}
+
+.delete {
+    background-color:#FE2851;
+    border:1px solid #851C3B;
+}
+
+.delete:hover {
+    background-color:#B51C3B;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.label {
+    text-align:right;
+    font-weight:bold;
+}
+
+.data {
+    text-align:left;
+}
+
+.imageContainer {
+    width: 100%;
+    background: silver;
+    padding-bottom:178%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+@keyframes pulse_animation {
+    0% { background: silver; }
+    50% { background: lightgray; }
+    100% { background: silver; }
+}
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+

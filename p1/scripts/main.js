@@ -14,6 +14,7 @@ function loadDebug() {
     loadURL('https://api.testing.p1staff.com/v2/ads/ad-data?t=' + (new Date()).getTime())
 }
 
+
 function loadFile() {
     var input = document.createElement('input')
     input.type = 'file'

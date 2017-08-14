@@ -6,7 +6,12 @@ var currentJSON = {
 }
 
 function loadProduction() {
-    loadURL('https://akull.github.io/p1/ad_data.json?t=' + (new Date()).getTime())
+    loadURL('https://api.p1.com/v2/ads/ad-data?t=' + (new Date()).getTime())
+
+}
+
+function loadDebug() {
+    loadURL('https://api.testing.p1staff.com/v2/ads/ad-data?t=' + (new Date()).getTime())
 }
 
 function loadFile() {

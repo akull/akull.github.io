@@ -1,0 +1,41 @@
+{
+  "data": {
+    "adverts": [
+      {
+        "id": "7f0d380c-40b4-495a-b0ee-17a12c8b1bc9",
+        "start_date": "",
+        "end_date": "",
+        "max_view_count": 10,
+        "min_view_delay": 86400,
+        "display_time": 2,
+        "link": "-",
+        "pictures": []
+      },
+      {
+        "id": "5dc71ad5-cc89-4e9a-ba3c-f16ad743a546",
+        "start_date": "",
+        "end_date": "",
+        "max_view_count": 10,
+        "min_view_delay": 86400,
+        "display_time": 2,
+        "link": "-",
+        "pictures": []
+      },
+      {
+        "id": "e19b5f38-b2bf-4317-9468-405240429281",
+        "start_date": "",
+        "end_date": "",
+        "max_view_count": 10,
+        "min_view_delay": 86400,
+        "display_time": 2,
+        "link": “-“,
+        "pictures": []
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "limit": 100,
+    "total": 3
+  }
+}
